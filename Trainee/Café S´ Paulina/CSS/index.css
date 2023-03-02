@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(190, 166, 113);
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.foto_1>img {
+
+    width: 540px;
+    height: 380px;
+    border: 2px solid black;
+    margin-right: 9px;
+
+}
+
+.foto_1 {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+
+.foto_1>img:hover {
+    flex-grow: 1;
+    opacity: 0.7;
+}
+
+.list>ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+
+
+}
+
+.title>h1 {
+
+    border-bottom: 8px solid salmon;
+}

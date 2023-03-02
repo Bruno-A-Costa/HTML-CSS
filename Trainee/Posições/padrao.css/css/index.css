@@ -1,0 +1,49 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    /*centraliza o texto verticalmente*/
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.E_1 {
+
+    background-color: #6c5ce7;
+    position: absolute;
+    /* alinha conforme a tela*/
+    right: 0px;
+}
+
+.E_2 {
+
+    background-color: #009894;
+    position: absolute;
+    right: 50%;
+    /*metade da tela*/
+    transform: translateX(50%) translateY(-50%);
+    /*conforme a metade do próprio elemento*/
+    top: 50%;
+
+}
+
+.E_3 {
+    position: absolute;
+    background-color: #d63031;
+}
+
+.E_intern {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+
+
+
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #00cec9;
+}
